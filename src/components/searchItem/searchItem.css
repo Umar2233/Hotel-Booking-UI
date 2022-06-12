@@ -107,4 +107,8 @@
     padding: 10px 5px;
     cursor: pointer;
     border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

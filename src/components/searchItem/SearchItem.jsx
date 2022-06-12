@@ -1,4 +1,5 @@
 import "./searchItem.css";
+import { Link } from "react-router-dom";
 
 const SearchItem = () => {
   return (
@@ -13,7 +14,7 @@ const SearchItem = () => {
         <span className="siDistance">500m from center</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">
-          Studio Apartment with Air conditioning
+          Studio Apartment with Air conditioninhttps://github.com/Umar2233/Hotel-Booking-UI.gitg
         </span>
         <span className="siFeatures">
           Entire studio • 1 bathroom • 21m² 1 full bed
@@ -31,7 +32,7 @@ const SearchItem = () => {
         <div className="siDetailTexts">
           <span className="siPrice">$112</span>
           <span className="siTaxOp">Includes taxes and fees</span>
-          <button className="siCheckButton">See availability</button>
+          <Link to='/hotels/sad' className="siCheckButton">See availability</Link>
         </div>
       </div>
     </div>
